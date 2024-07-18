@@ -13,5 +13,8 @@
 2. 安装yarn add --dev pinst
 3. package.json的script新增"postinstall": "husky"，执行初始化yarn run postinstall,
    添加执行脚本
-
-
+### 添加commitizen
+   完善提交信息
+1. 安装yarn add -D commitizen
+2. 初始化commitizen init cz-conventional-changelog --yarn --dev --exact
+3. cz提交
